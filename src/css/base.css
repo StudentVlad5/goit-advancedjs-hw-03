@@ -236,6 +236,9 @@ header {
   justify-content: center;
   margin: 20px 0 60px;
 }
+.load-more {
+  display: none;
+}
 
 svg {
   width: 20px;
