@@ -8,12 +8,12 @@
     <script type="module" crossorigin src="/goit-advancedjs-hw-03/index.js"></script>
     <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-03/assets/vendor-Dg3uDB0e.js">
     <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-03/assets/vendor-CX4EDM7x.css">
-    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-03/assets/index-D9yvBmPy.css">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-03/assets/index-DBT3SGE4.css">
   </head>
   <body class="fixedClass">
     <header>
       <div class="form--container">
-        <form class="search-form" id="search-form">
+        <form class="form" id="form">
           <input
             type="text"
             class="searchTerm"
@@ -41,9 +41,11 @@
     <main>
       <section>
         <div class="gallery--container">
-          <ul class="gallery__list"></ul>
+          <ul class="gallery"></ul>
         </div>
-        <h3 class="info--container"></h3>
+        <h3 class="info--container">
+          <span class="loader"></span>
+        </h3>
         <div class="load-more--container">
           <button type="button" class="load-more">
             <svg
