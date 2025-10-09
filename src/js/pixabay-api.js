@@ -10,7 +10,6 @@ export const fetchImages = async url => {
     }
 
     const data = await response.json();
-    console.dir(data);
 
     // --- Перевірки результатів пошуку ---
     if (data.totalHits === 0) {
