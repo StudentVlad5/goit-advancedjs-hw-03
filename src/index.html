@@ -10,7 +10,7 @@
   <body class="fixedClass">
     <header>
       <div class="form--container">
-        <form class="search-form" id="search-form">
+        <form class="form" id="form">
           <input
             type="text"
             class="searchTerm"
@@ -38,9 +38,11 @@
     <main>
       <section>
         <div class="gallery--container">
-          <ul class="gallery__list"></ul>
+          <ul class="gallery"></ul>
         </div>
-        <h3 class="info--container"></h3>
+        <h3 class="info--container">
+          <span class="loader"></span>
+        </h3>
         <div class="load-more--container">
           <button type="button" class="load-more">
             <svg

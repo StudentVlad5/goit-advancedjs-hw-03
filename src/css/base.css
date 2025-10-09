@@ -55,7 +55,7 @@ header {
   background: transparent;
 }
 
-.search-form {
+.form {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -129,7 +129,7 @@ header {
   height: auto;
 }
 
-.gallery__list {
+.gallery {
   display: grid;
   grid-template-columns: repeat(1, 1fr); /* мобільний — 1 фото в ряд */
   gap: 20px;
@@ -139,21 +139,21 @@ header {
 
 /* планшети */
 @media (min-width: 600px) {
-  .gallery__list {
+  .gallery {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 /* середні екрани */
 @media (min-width: 900px) {
-  .gallery__list {
+  .gallery {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 /* десктопи */
 @media (min-width: 1200px) {
-  .gallery__list {
+  .gallery {
     grid-template-columns: repeat(4, 1fr); /* 4 фото в ряд */
   }
 }

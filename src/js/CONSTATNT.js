@@ -6,7 +6,7 @@ export const ref = {
   per_page: 20,
   page: 1,
   checkCountOfPhotos: 0,
-  galleryList: document.querySelector('.gallery__list'),
+  galleryList: document.querySelector('.gallery'),
   searchButton: document.querySelector('button[type="submit"]'),
   searchInput: document.querySelector('input'),
   loadMoreButton: document.querySelector('.load-more'),
